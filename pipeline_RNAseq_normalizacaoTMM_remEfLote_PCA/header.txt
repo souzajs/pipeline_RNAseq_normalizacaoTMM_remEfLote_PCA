@@ -1,0 +1,18 @@
+\usepackage{caption}
+\captionsetup[figure]{name=Figure}
+\captionsetup[figure]{font=footnotesize,labelfont=footnotesize}
+\captionsetup[figure]{labelfont=bf}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+%\pretitle{\begin{flushleft}}
+%\posttitle{\end{flushleft}}
+
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\normalfont\small}           % \section font in ToC
+\renewcommand{\cftsubsecfont}{\normalfont\small}        % \subsection font in ToC
+\renewcommand{\cftsubsubsecfont}{\normalfont\small}       % \subsubsection font in ToC
+\renewcommand\cftparskip{-2pt}
+\renewcommand\cftbeforesecskip{2pt}
+\renewcommand\cftaftertoctitleskip{2pt}
